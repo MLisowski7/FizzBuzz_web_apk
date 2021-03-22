@@ -1,0 +1,9 @@
+﻿@page
+@model FizzBuzz_aplikacja_webowa.Pages.ClassModel
+@{}
+@if (Model.Class != null)
+{
+    <p>Wynik: @Model.Class.Wynik</p>
+    <p>Sprawdzana Liczba: @Model.Class.Liczba</p>
+    <p>Data: @DateTime.Now </p>
+}

@@ -1,0 +1,13 @@
+﻿@page
+@model FizzBuzz_aplikacja_webowa.Pages.AddressModel
+@{
+    <p>Ostanio sprawdzana liczba:</p>
+}
+
+@if (Model.Address != null)
+{
+    <p>
+        @Html.DisplayNameFor(model => Model.Address.Number):
+        @Model.Address.Number
+    </p>
+}
